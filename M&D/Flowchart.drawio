@@ -1,0 +1,78 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="i_68figlHisqvvFswGUL">
+    <mxGraphModel dx="819" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-1" target="BWf8vYKnGDFrtQbPDCSv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-2" target="BWf8vYKnGDFrtQbPDCSv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-10" value="Ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BWf8vYKnGDFrtQbPDCSv-9">
+          <mxGeometry x="0.6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-2" target="BWf8vYKnGDFrtQbPDCSv-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="890.6666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-21" value="nee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BWf8vYKnGDFrtQbPDCSv-20">
+          <mxGeometry x="-0.3955" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-2" value="is signaal Hoog en&lt;div&gt;&amp;nbsp;is vorig signaal laag&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="480" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-8" target="BWf8vYKnGDFrtQbPDCSv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-8" value="Punt 2 = Punt1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-11" target="BWf8vYKnGDFrtQbPDCSv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-11" value="Punt1 is huidige tijd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-14" target="BWf8vYKnGDFrtQbPDCSv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-14" value="Verschil is Punt2 - Punt1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-16" target="BWf8vYKnGDFrtQbPDCSv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-16" value="Verschil in tijd omrekenen naar tpm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-18" target="BWf8vYKnGDFrtQbPDCSv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-18" value="Vorig signaal vervangen door huidig signaal" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BWf8vYKnGDFrtQbPDCSv-22" target="BWf8vYKnGDFrtQbPDCSv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1060" />
+              <mxPoint x="420" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWf8vYKnGDFrtQbPDCSv-22" value="potmeter uitlezen en pwm signaal naar de motor sturen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
