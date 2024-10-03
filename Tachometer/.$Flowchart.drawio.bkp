@@ -1,0 +1,108 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="O610xQt4wN88I5LGzDCf">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EqVXpXwch5lMKND8Il15-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-1" target="EqVXpXwch5lMKND8Il15-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-1" value="Begin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-2" target="EqVXpXwch5lMKND8Il15-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-2" value="analoog singaal uitlezen en omzetten naar PWM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-4" target="EqVXpXwch5lMKND8Il15-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-4" value="digitaal signaal van sensor uitlezen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-6" target="EqVXpXwch5lMKND8Il15-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-6" value="motor aansturen met PWM signaal" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-8" target="EqVXpXwch5lMKND8Il15-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="610" />
+              <mxPoint x="890" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-12" value="Ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EqVXpXwch5lMKND8Il15-11">
+          <mxGeometry x="-0.24" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-8" target="EqVXpXwch5lMKND8Il15-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="610" />
+              <mxPoint x="580" y="680" />
+              <mxPoint x="920" y="680" />
+              <mxPoint x="920" y="610" />
+              <mxPoint x="1030" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-23" value="Nee" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EqVXpXwch5lMKND8Il15-21">
+          <mxGeometry x="-0.1753" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-8" value="is het singaal van sensor HIGH&lt;div&gt;&amp;nbsp;en het vorige signaal LOW&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="560" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-10" target="EqVXpXwch5lMKND8Il15-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-10" value="Vorig tijdpunt van puls opslaan" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-13" target="EqVXpXwch5lMKND8Il15-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-13" value="huidig tijdpunt van puls opslaan" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-15" target="EqVXpXwch5lMKND8Il15-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-15" value="tijd tussen pulsen berekenen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-17" target="EqVXpXwch5lMKND8Il15-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="590" />
+              <mxPoint x="1030" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-17" value="toerental berekenen en doorschrijven naar serial plotter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EqVXpXwch5lMKND8Il15-19" target="EqVXpXwch5lMKND8Il15-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="740" />
+              <mxPoint x="560" y="740" />
+              <mxPoint x="560" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EqVXpXwch5lMKND8Il15-19" value="vorige signaal van sensor overschijven met huidig signaal" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="628" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
